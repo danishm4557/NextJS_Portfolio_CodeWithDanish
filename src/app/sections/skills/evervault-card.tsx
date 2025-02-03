@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 
 import { cn } from "./utils";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const EvervaultCard = ({
   text,
   icon,
