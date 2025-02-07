@@ -112,7 +112,7 @@ const Navigation = () => {
       </div>
       {/* MOBILE SIDE-PANEL NAV */}
       {navOpen && (
-        <div className="mobile-navigator fixed bg-black h-screen w-screen top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
+        <div className="mobile-navigator absolute bg-black h-screen w-screen top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
           <div className="flex flex-col gap-16">
             <div className="flex flex-col items-start text-2xl gap-6">
               <button className="hover:text-zinc-400">Experience</button>
