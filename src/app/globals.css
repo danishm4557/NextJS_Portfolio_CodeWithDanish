@@ -11,12 +11,6 @@ body {
   background-color: #000;
 }
 
-/* disable scrolling when mobile navigation is open */
-html:has(input.menu-toggle:checked) {
-  overflow-y: hidden !important;
-}
-/* --------------------------------------------- */
-
 /* ------- danish-logo-at-top-left-of-app ------- */
 @media screen and (max-width: 767px) {
   .danish-logo-bold-image {

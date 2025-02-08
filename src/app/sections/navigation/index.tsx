@@ -1,12 +1,15 @@
 "use client";
-import { useState } from "react";
 import danishLogoBold from "../../assets/danish-logo-bold.png";
 import Image from "next/image";
-const Navigation = () => {
-  const [navOpen, setNavOpen] = useState(false);
 
+type Props = {
+  navOpen: boolean;
+  setNavOpen: (value: boolean) => void;
+};
+
+const Navigation = ({ navOpen, setNavOpen }: Props) => {
   return (
-    <>
+    <nav>
       <div className="navigation-container absolute top-0 left-0 z-20 text-white flex justify-center bg-transparent w-full pt-5">
         <div className="flex w-11/12 justify-between items-center">
           <div className="left-logo-container">
@@ -206,7 +209,7 @@ const Navigation = () => {
           </div>
         </div>
       )}
-    </>
+    </nav>
   );
 };
 
