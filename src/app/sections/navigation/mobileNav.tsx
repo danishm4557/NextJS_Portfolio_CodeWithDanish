@@ -40,7 +40,7 @@ const MobileNav = () => {
   return (
     <nav className="mobile-navigator absolute bg-black top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
       <Starfield
-        starCount={5000}
+        starCount={20000}
         starColor={[255, 255, 255]}
         speedFactor={0.05}
         backgroundColor="black"
