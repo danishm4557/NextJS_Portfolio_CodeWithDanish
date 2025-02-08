@@ -171,8 +171,10 @@ body {
 /* --------------------------------------------- */
 
 /* ------------ mobile navigation -------------- */
-.menu-button-icon:before,
-.menu-button-icon:after {
+.menu-button-icon-closed:before,
+.menu-button-icon-open:before,
+.menu-button-icon-closed:after,
+.menu-button-icon-open:after {
   content: "";
   height: 2px;
   position: absolute;
@@ -181,21 +183,21 @@ body {
   inset-inline: 0;
 }
 
-.menu-button-icon:before {
+.menu-button-icon-closed:before {
   top: 2px;
 }
 
-.menu-button-icon:after {
+.menu-button-icon-closed:after {
   top: 14px;
   left: 8px;
 }
 
-.navigation-container:has(input:checked) .menu-button-icon:before {
+.menu-button-icon-open:before {
   top: 3px;
   rotate: 45deg;
 }
 
-.navigation-container:has(input:checked) .menu-button-icon:after {
+.menu-button-icon-open:after {
   top: 3px;
   left: 0;
   rotate: -45deg;

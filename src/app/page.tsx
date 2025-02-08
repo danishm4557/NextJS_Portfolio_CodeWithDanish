@@ -10,15 +10,12 @@ import useMediaQuery from "./hooks/useMediaQuery";
 import MobileNav from "./sections/navigation/mobileNav";
 
 export default function Home() {
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+  const isAboveMediumScreens = useMediaQuery("(min-width: 767px)");
   const [navOpen, setNavOpen] = useState(false);
 
   useEffect(() => {
     if (isAboveMediumScreens) {
       setNavOpen(false);
-      console.log("ABOVE");
-    } else {
-      console.log("BELOW");
     }
   }, [isAboveMediumScreens]);
 

@@ -38,7 +38,7 @@ const contactAnimation = {
 
 const MobileNav = () => {
   return (
-    <div className="mobile-navigator absolute bg-black top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
+    <nav className="mobile-navigator absolute bg-black top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
       <Starfield
         starCount={5000}
         starColor={[255, 255, 255]}
@@ -153,7 +153,7 @@ const MobileNav = () => {
           </div>
         </motion.div>
       </div>
-    </div>
+    </nav>
   );
 };
 
