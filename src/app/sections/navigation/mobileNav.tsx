@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Starfield from "../experience/starfield";
 
 const boxVariant = {
   hidden: {
@@ -37,7 +38,13 @@ const contactAnimation = {
 
 const MobileNav = () => {
   return (
-    <div className="mobile-navigator absolute bg-black h-screen w-screen top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
+    <div className="mobile-navigator absolute bg-black top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
+      <Starfield
+        starCount={5000}
+        starColor={[255, 255, 255]}
+        speedFactor={0.05}
+        backgroundColor="black"
+      />
       <div className="flex flex-col gap-16">
         <motion.div
           variants={boxVariant}

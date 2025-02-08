@@ -115,7 +115,6 @@ const Experience = () => {
         "Sourcetree",
       ]);
 
-      setGlowColor("shadow-[0_8px_92px_20px_rgba(255, 255, 255, 0.7)]");
       setGlowColor("ShopLocal_Glow");
     }
 
@@ -148,7 +147,6 @@ const Experience = () => {
         "Git",
       ]);
 
-      // setGlowColor("shadow-[0_8px_92px_20px_rgba(255, 0, 0, 0.7)]");
       setGlowColor("GA_Glow");
     }
 
