@@ -81,7 +81,7 @@ const Skills = () => {
 
   return (
     <>
-      <div className="skills-section bg-black">
+      <div id="skills-section" className="skills-section bg-black">
         <div
           id="skills-text-container"
           className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto mt-24 pb-24 pt-10"

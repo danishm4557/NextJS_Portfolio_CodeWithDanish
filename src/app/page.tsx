@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <Navigation navOpen={navOpen} setNavOpen={setNavOpen} />
       {navOpen ? (
-        <MobileNav />
+        <MobileNav setNavOpen={setNavOpen} />
       ) : (
         <>
           <Main />

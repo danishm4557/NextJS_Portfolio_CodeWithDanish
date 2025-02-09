@@ -36,7 +36,11 @@ const contactAnimation = {
   },
 };
 
-const MobileNav = () => {
+type Props = {
+  setNavOpen: (value: boolean) => void;
+};
+
+const MobileNav = ({ setNavOpen }: Props) => {
   return (
     <nav className="mobile-navigator absolute bg-black top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
       <Starfield
@@ -52,15 +56,30 @@ const MobileNav = () => {
           initial="hidden"
           className="flex flex-col items-start text-2xl gap-6"
         >
-          <motion.button variants={listVariant} className="hover:text-zinc-400">
+          <motion.a
+            variants={listVariant}
+            className="hover:text-zinc-400"
+            href="#experience-section"
+            onClick={() => setNavOpen(false)}
+          >
             Experience
-          </motion.button>
-          <motion.button variants={listVariant} className="hover:text-zinc-400">
-            About Me
-          </motion.button>
-          <motion.button variants={listVariant} className="hover:text-zinc-400">
+          </motion.a>
+          <motion.a
+            variants={listVariant}
+            className="hover:text-zinc-400"
+            href="#skills-section"
+            onClick={() => setNavOpen(false)}
+          >
+            My Skills
+          </motion.a>
+          <motion.a
+            variants={listVariant}
+            className="hover:text-zinc-400"
+            href="#projects-section"
+            onClick={() => setNavOpen(false)}
+          >
             Projects
-          </motion.button>
+          </motion.a>
         </motion.div>
         <motion.div
           variants={contactAnimation}

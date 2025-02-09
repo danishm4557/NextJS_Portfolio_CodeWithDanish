@@ -163,7 +163,7 @@ const Experience = () => {
 
   return (
     <>
-      <div className="experience-section text-white bg-black">
+      <div id="experience-section" className="experience-section text-white bg-black">
         {/* <div id="stars1"></div>
         <div id="stars2"></div>
         <div id="stars3"></div> */}
@@ -175,7 +175,7 @@ const Experience = () => {
         />
         <div
           id="experience-text-container"
-          className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto my-24"
+          className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto mt-24 pb-24 pt-10"
         >
           <p className="text-3xl sm:text-5xl md:text-6xl">Experience</p>
           <div className="flex gap-10 pt-10">

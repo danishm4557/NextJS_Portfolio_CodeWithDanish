@@ -3,7 +3,7 @@
 const Main = () => {
   return (
     <>
-      <div className="main-home-landing-page-section flex justify-center">
+      <div id="main-section" className="main-home-landing-page-section flex justify-center">
         <div className="dark-overlay-left"></div>
         <div className="dark-overlay-right"></div>
         <div className="introduction-text-block text-white text-center flex flex-col justify-center items-center gap-5 px-3 w-11/12 lg:w-2/3">
