@@ -67,6 +67,14 @@ const MobileNav = ({ setNavOpen }: Props) => {
           <motion.a
             variants={listVariant}
             className="hover:text-zinc-400"
+            href="#about-section"
+            onClick={() => setNavOpen(false)}
+          >
+            About Me
+          </motion.a>
+          <motion.a
+            variants={listVariant}
+            className="hover:text-zinc-400"
             href="#skills-section"
             onClick={() => setNavOpen(false)}
           >

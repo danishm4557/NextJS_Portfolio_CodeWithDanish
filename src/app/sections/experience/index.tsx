@@ -22,7 +22,6 @@ import tailwindLogo from "../../assets/tailwindLogo.svg";
 import gitLogo from "../../assets/gitLogo.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Starfield from "./starfield";
 const Experience = () => {
   const [techStackImages, setTechStackImages] = useState<string[]>([
     javaScriptLogo,
@@ -167,12 +166,6 @@ const Experience = () => {
         {/* <div id="stars1"></div>
         <div id="stars2"></div>
         <div id="stars3"></div> */}
-        <Starfield
-          starCount={3000}
-          starColor={[255, 255, 255]}
-          speedFactor={0.05}
-          backgroundColor="black"
-        />
         <div
           id="experience-text-container"
           className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto mt-24 pb-24 pt-10"
@@ -454,6 +447,14 @@ const Experience = () => {
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
+                          alt="Github Logo"
+                          src={gitLogo}
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
+                        />
+                        <p className="text-md sm:text-lg">Git</p>
+                      </div>
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
+                        <Image
                           alt="Tailwind Logo"
                           src={tailwindLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
@@ -467,14 +468,6 @@ const Experience = () => {
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
                         <p className="text-md sm:text-lg">Bootstrap</p>
-                      </div>
-                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
-                        <Image
-                          alt="Github Logo"
-                          src={gitLogo}
-                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
-                        />
-                        <p className="text-md sm:text-lg">Git</p>
                       </div>
                     </div>
                   </div>

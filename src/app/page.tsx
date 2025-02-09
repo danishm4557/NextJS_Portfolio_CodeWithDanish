@@ -8,6 +8,7 @@ import Projects from "./sections/projects";
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import MobileNav from "./sections/navigation/mobileNav";
+import About from "./sections/about";
 
 export default function Home() {
   const isAboveMediumScreens = useMediaQuery("(min-width: 767px)");
@@ -28,6 +29,7 @@ export default function Home() {
         <>
           <Main />
           <Experience />
+          <About />
           <Skills />
           <Projects />
         </>
