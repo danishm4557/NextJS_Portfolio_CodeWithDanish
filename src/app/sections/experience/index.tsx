@@ -254,86 +254,86 @@ const Experience = () => {
                   </ul>
                   <div className="ml-4 flex flex-col lg:hidden gap-3">
                     <p className="text-lg sm:text-2xl">Tech Stack</p>
-                    <div className="flex flex-wrap gap-2 sm:gap-3">
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                    <div className="flex flex-wrap gap-1 sm:gap-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="JavaScript Logo"
                           src={javaScriptLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">JavaScript</p>
+                        <p className="text-sm sm:text-lg">JavaScript</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="ColdFusion Logo"
                           src={coldFusionLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">ColdFusion</p>
+                        <p className="text-sm sm:text-lg">ColdFusion</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="jQuery Logo"
                           src={jQueryLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">jQuery</p>
+                        <p className="text-sm sm:text-lg">jQuery</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="Java Logo"
                           src={javaLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Java</p>
+                        <p className="text-sm sm:text-lg">Java</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="mySQL Logo"
                           src={mySQLLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">MySQL</p>
+                        <p className="text-sm sm:text-lg">MySQL</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="HeidiSQL Logo"
                           src={heidiSQLLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">HeidiSQL</p>
+                        <p className="text-sm sm:text-lg">HeidiSQL</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="Bootstrap Logo"
                           src={bootstrapLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Bootstrap</p>
+                        <p className="text-sm sm:text-lg">Bootstrap</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="HTML Logo"
                           src={htmlLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">HTML</p>
+                        <p className="text-sm sm:text-lg">HTML</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="CSS Logo"
                           src={cssLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">CSS</p>
+                        <p className="text-sm sm:text-lg">CSS</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="SourceTree Logo"
                           src={sourceTreeLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Sourcetree</p>
+                        <p className="text-sm sm:text-lg">Sourcetree</p>
                       </div>
                     </div>
                   </div>
@@ -395,86 +395,86 @@ const Experience = () => {
                   </ul>
                   <div className="ml-4 flex flex-col lg:hidden gap-3">
                     <p className="text-lg sm:text-2xl">Tech Stack</p>
-                    <div className="flex flex-wrap gap-2 sm:gap-3">
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                    <div className="flex flex-wrap gap-1 sm:gap-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="TypeScript Logo"
                           src={typeScriptLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">TypeScript</p>
+                        <p className="text-sm sm:text-lg">TypeScript</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="JavaScript Logo"
                           src={javaScriptLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Javascript</p>
+                        <p className="text-sm sm:text-lg">Javascript</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="React Logo"
                           src={reactJsLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">React.js</p>
+                        <p className="text-sm sm:text-lg">React.js</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="Node.js Logo"
                           src={nodeJsLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Node.js</p>
+                        <p className="text-sm sm:text-lg">Node.js</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="Express.js Logo"
                           src={expressJsLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Express.js</p>
+                        <p className="text-sm sm:text-lg">Express.js</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="MongoDB Logo"
                           src={mongoDBLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">MongoDB</p>
+                        <p className="text-sm sm:text-lg">MongoDB</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="PostgreSQL Logo"
                           src={postgreSQLLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">PostgreSQL</p>
+                        <p className="text-sm sm:text-lg">PostgreSQL</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="Tailwind Logo"
                           src={tailwindLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Tailwind CSS</p>
+                        <p className="text-sm sm:text-lg">Tailwind CSS</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="Bootstrap Logo"
                           src={bootstrapLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Bootstrap</p>
+                        <p className="text-sm sm:text-lg">Bootstrap</p>
                       </div>
-                      <div className="flex items-center gap-3 rounded-lg bg-[#121212] p-2">
+                      <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
                           alt="Github Logo"
                           src={gitLogo}
-                          className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                          className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-lg">Git</p>
+                        <p className="text-sm sm:text-lg">Git</p>
                       </div>
                     </div>
                   </div>
