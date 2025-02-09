@@ -261,7 +261,7 @@ const Experience = () => {
                           src={javaScriptLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">JavaScript</p>
+                        <p className="text-md sm:text-lg">JavaScript</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -269,7 +269,7 @@ const Experience = () => {
                           src={coldFusionLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">ColdFusion</p>
+                        <p className="text-md sm:text-lg">ColdFusion</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -277,7 +277,7 @@ const Experience = () => {
                           src={jQueryLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">jQuery</p>
+                        <p className="text-md sm:text-lg">jQuery</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -285,7 +285,7 @@ const Experience = () => {
                           src={javaLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Java</p>
+                        <p className="text-md sm:text-lg">Java</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -293,7 +293,7 @@ const Experience = () => {
                           src={mySQLLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">MySQL</p>
+                        <p className="text-md sm:text-lg">MySQL</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -301,7 +301,7 @@ const Experience = () => {
                           src={heidiSQLLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">HeidiSQL</p>
+                        <p className="text-md sm:text-lg">HeidiSQL</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -309,7 +309,7 @@ const Experience = () => {
                           src={bootstrapLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Bootstrap</p>
+                        <p className="text-md sm:text-lg">Bootstrap</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -317,7 +317,7 @@ const Experience = () => {
                           src={htmlLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">HTML</p>
+                        <p className="text-md sm:text-lg">HTML</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -325,7 +325,7 @@ const Experience = () => {
                           src={cssLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">CSS</p>
+                        <p className="text-md sm:text-lg">CSS</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -333,7 +333,7 @@ const Experience = () => {
                           src={sourceTreeLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Sourcetree</p>
+                        <p className="text-md sm:text-lg">Sourcetree</p>
                       </div>
                     </div>
                   </div>
@@ -402,7 +402,7 @@ const Experience = () => {
                           src={typeScriptLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">TypeScript</p>
+                        <p className="text-md sm:text-lg">TypeScript</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -410,7 +410,7 @@ const Experience = () => {
                           src={javaScriptLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Javascript</p>
+                        <p className="text-md sm:text-lg">Javascript</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -418,7 +418,7 @@ const Experience = () => {
                           src={reactJsLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">React.js</p>
+                        <p className="text-md sm:text-lg">React.js</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -426,7 +426,7 @@ const Experience = () => {
                           src={nodeJsLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Node.js</p>
+                        <p className="text-md sm:text-lg">Node.js</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -434,7 +434,7 @@ const Experience = () => {
                           src={expressJsLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Express.js</p>
+                        <p className="text-md sm:text-lg">Express.js</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -442,7 +442,7 @@ const Experience = () => {
                           src={mongoDBLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">MongoDB</p>
+                        <p className="text-md sm:text-lg">MongoDB</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -450,7 +450,7 @@ const Experience = () => {
                           src={postgreSQLLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">PostgreSQL</p>
+                        <p className="text-md sm:text-lg">PostgreSQL</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -458,7 +458,7 @@ const Experience = () => {
                           src={tailwindLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Tailwind CSS</p>
+                        <p className="text-md sm:text-lg">Tailwind CSS</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -466,7 +466,7 @@ const Experience = () => {
                           src={bootstrapLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Bootstrap</p>
+                        <p className="text-md sm:text-lg">Bootstrap</p>
                       </div>
                       <div className="bg-[#121212] flex items-center gap-3 rounded-lg pl-2 pr-4 py-2">
                         <Image
@@ -474,7 +474,7 @@ const Experience = () => {
                           src={gitLogo}
                           className="h-5 w-5 sm:h-8 sm:w-8 lg:h-14 lg:w-14 object-cover"
                         />
-                        <p className="text-sm sm:text-lg">Git</p>
+                        <p className="text-md sm:text-lg">Git</p>
                       </div>
                     </div>
                   </div>
