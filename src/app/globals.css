@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +10,10 @@ html {
 body {
   color: white;
   background-color: #000;
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* ------- danish-logo-at-top-left-of-app ------- */

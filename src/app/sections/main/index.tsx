@@ -8,7 +8,7 @@ const Main = () => {
         <div className="dark-overlay-right"></div>
         <div className="introduction-text-block text-white text-center flex flex-col justify-center items-center gap-5 px-3 w-11/12 lg:w-2/3">
           <div>
-            <p className="text-xs">BASED IN CHICAGO, IL</p>
+            <p className="text-xs">BASED IN UNITED STATES</p>
           </div>
           <div className="intro-text-block flex flex-col gap-1 md:gap-2">
             <p className="text-3xl sm:text-5xl md:text-6xl">
@@ -25,7 +25,8 @@ const Main = () => {
           </div>
           <div>
             <p className="text-gray-400">
-              Hi, I&apos;m Danish. I create solutions across all layers of software engineering.
+              Hi, I&apos;m Danish. I create solutions and exceptional experiences across all layers
+              of the web.
             </p>
           </div>
           <div className="flex items-center gap-4 text-sm">
