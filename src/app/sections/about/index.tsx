@@ -22,11 +22,11 @@ const About = () => {
             src={grandientBackground}
             className="absolute inset-0 object-cover h-full w-full"
           />
-          <div className="max-w-6xl mx-auto pb-4 flex flex-col items-center gap-6 relative">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center font-bold px-3">
+          <div className="max-w-6xl mx-auto pb-8 flex flex-col items-center gap-6 relative text">
+            <h2 className="text-2xl sm:text-3xl 2xl:text-4xl text-center font-bold px-3">
               Hi, I&apos;m Danish. Nice to meet you.
             </h2>
-            <p className="md:w-[80%] text-center mx-auto sm:text-lg xl:text-xl px-4 sm:px-6 md:px-0">
+            <p className="md:w-[75%] text-center mx-auto sm:text-xl xl:text-2xl px-4 sm:px-6 md:px-0">
               I&apos;m a full-stack software engineer known for innovative problem-solving and
               strategic code development that ensures reliability and user-friendliness. Highly
               self-motivated, consistently meeting deadlines with a meticulous attention to detail.

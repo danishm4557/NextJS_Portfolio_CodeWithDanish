@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import cursorProfile from "../../assets/cursor-profile.svg";
 
 const Main = () => {
   return (
@@ -7,6 +9,11 @@ const Main = () => {
         <div className="dark-overlay-left"></div>
         <div className="dark-overlay-right"></div>
         <div className="introduction-text-block text-white text-center flex flex-col justify-center items-center gap-5 px-3 w-11/12 lg:w-2/3">
+          <Image
+            src={cursorProfile}
+            alt="testing"
+            className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 profile-pic-image"
+          />
           <div>
             <p className="text-xs">BASED IN UNITED STATES</p>
           </div>
