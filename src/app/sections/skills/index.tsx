@@ -97,7 +97,7 @@ const Skills = () => {
             whileInView="visible"
             transition={{ delay: 0.5, when: "beforeChildren", staggerChildren: 0.15 }}
             viewport={{ once: true }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full pt-10"
+            className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 md:gap-6 w-full pt-10"
           >
             {skills.map((item, idx) => (
               <motion.div
@@ -113,7 +113,7 @@ const Skills = () => {
                 }}
                 transition={{ duration: 0.75 }}
                 key={idx}
-                className="relative mx-auto flex h-[13rem] w-full max-w-full flex-col items-start border p-4 border-white/[0.2]"
+                className="relative mx-auto flex h-[8rem] md:h-[13rem] w-full max-w-full flex-col items-start border p-4 border-white/[0.2]"
               >
                 <Icon className="absolute -left-3 -top-3 size-6 text-white" />
                 <Icon className="absolute -bottom-3 -left-3 size-6 text-white" />

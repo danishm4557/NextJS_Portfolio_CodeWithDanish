@@ -60,8 +60,8 @@ const Main = ({ setShowingResumeModal }: Props) => {
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 512 512"
                 xmlSpace="preserve"
-                fill="#ffffff"
-                stroke="#ffffff"
+                fill="#3b82f6"
+                stroke="#3b82f6"
                 strokeWidth="4.096"
                 className="block group-hover:hidden"
               >
