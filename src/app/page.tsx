@@ -9,30 +9,51 @@ import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import MobileNav from "./sections/navigation/mobileNav";
 import About from "./sections/about";
+import ResumeModal from "./sections/resume/modal";
+import ResumePage from "./sections/resume/page";
 
 export default function Home() {
   const isAboveMediumScreens = useMediaQuery("(min-width: 767px)");
   const [navOpen, setNavOpen] = useState(false);
+  const [showingResumeModal, setShowingResumeModal] = useState(false);
+  const [showingResumeFullScreen, setShowingResumeFullScreen] = useState(false);
 
   useEffect(() => {
     if (isAboveMediumScreens) {
       setNavOpen(false);
     }
-  }, [isAboveMediumScreens]);
+  }, [isAboveMediumScreens, showingResumeModal]);
 
   return (
     <>
-      <Navigation navOpen={navOpen} setNavOpen={setNavOpen} />
-      {navOpen ? (
-        <MobileNav setNavOpen={setNavOpen} />
-      ) : (
+      {/* all componenets showing */}
+      {!showingResumeFullScreen ? (
         <>
-          <Main />
-          <Experience />
-          <About />
-          <Skills />
-          <Projects />
+          <Navigation navOpen={navOpen} setNavOpen={setNavOpen} />
+          {navOpen ? (
+            <MobileNav setNavOpen={setNavOpen} />
+          ) : (
+            <>
+              <Main setShowingResumeModal={setShowingResumeModal} />
+              {showingResumeModal && (
+                <ResumeModal
+                  setShowingResumeModal={setShowingResumeModal}
+                  setShowingResumeFullScreen={setShowingResumeFullScreen}
+                />
+              )}
+              <Experience />
+              <About />
+              <Skills />
+              <Projects />
+            </>
+          )}
         </>
+      ) : (
+        // only resume showing
+        <ResumePage
+          setShowingResumeModal={setShowingResumeModal}
+          setShowingResumeFullScreen={setShowingResumeFullScreen}
+        />
       )}
     </>
   );

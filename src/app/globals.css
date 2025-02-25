@@ -46,7 +46,7 @@ body {
 /* dark-overlay-top */
 .main-home-landing-page-section::before {
   content: "";
-  height: 30%;
+  height: 25%;
   width: 100%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
   position: absolute;
@@ -59,7 +59,7 @@ body {
 /* dark-overlay-bottom */
 .main-home-landing-page-section::after {
   content: "";
-  height: 30%;
+  height: 25%;
   width: 100%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
   position: absolute;
@@ -72,8 +72,8 @@ body {
 .dark-overlay-left {
   content: "";
   height: 100vh;
-  width: 5%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  width: 10%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -84,8 +84,8 @@ body {
 .dark-overlay-right {
   content: "";
   height: 100vh;
-  width: 5%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  width: 10%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), transparent);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -219,6 +219,29 @@ body {
 .about-section {
   z-index: 2;
   position: relative;
+}
+
+.resume-section {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 40;
+  backdrop-filter: blur(10px);
+}
+
+.resume-section-content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  overflow: auto;
 }
 
 .glow-card {
