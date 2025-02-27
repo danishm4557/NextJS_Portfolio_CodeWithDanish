@@ -30,7 +30,7 @@ const ResumeModal = ({ setShowingResumeModal, setShowingResumeFullScreen }: Prop
         whileInView={{ scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.3 }}
-        className="resume-section-content w-[90vw] md:w-[60vw] md:h-[90vh]"
+        className="resume-section-content w-[90vw] sm:w-[60vw] md:h-[90vh]"
         onClick={(e) => {
           // do not close modal if anything inside modal content is clicked
           e.stopPropagation();
@@ -41,7 +41,7 @@ const ResumeModal = ({ setShowingResumeModal, setShowingResumeFullScreen }: Prop
           <div className="flex justify-between items-center fixed z-50 w-full h-10 px-2 resume-buttons-bar">
             <div className="flex gap-3">
               <button
-                className="button-resume-full-screen w-7 h-7"
+                className="button-resume-full-screen w-7 h-7 hidden md:block"
                 onClick={() => [setShowingResumeModal(false), setShowingResumeFullScreen(true)]}
               >
                 <Image src={fullScreenButton} alt="full screen button" />
