@@ -168,10 +168,10 @@ const Experience = () => {
         <div id="stars3"></div> */}
         <div
           id="experience-text-container"
-          className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto mt-24 pb-24 pt-10"
+          className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto py-7 md:py-14"
         >
           <p className="text-3xl sm:text-5xl md:text-6xl">Experience</p>
-          <div className="flex gap-10 pt-10">
+          <div className="flex gap-10 pt-7">
             {/* left-experience-container */}
             <div className="flex flex-col lg:w-1/2">
               {/* Shop Local */}

@@ -14,19 +14,19 @@ const About = () => {
         <Image
           alt="Devices image"
           src={devicesImage}
-          className="w-full lg:w-2/3 mx-auto px-10 pt-12"
+          className="w-full lg:w-3/5 mx-auto px-10 pt-12"
         />
-        <div className="relative py-10 md:py-24 w-full">
+        <div className="relative py-10 md:py-16 w-full">
           <Image
             alt="Gradient background image"
             src={grandientBackground}
             className="absolute inset-0 object-cover h-full w-full"
           />
-          <div className="max-w-6xl mx-auto pb-8 flex flex-col items-center gap-6 relative text">
-            <h2 className="text-2xl sm:text-3xl 2xl:text-4xl text-center font-bold px-3">
+          <div className="max-w-6xl mx-auto flex flex-col items-center gap-6 relative text">
+            <h2 className="text-xl sm:text-2xl 2xl:text-3xl text-center font-bold px-3">
               Hi, I&apos;m Danish. Nice to meet you.
             </h2>
-            <p className="md:w-[75%] text-center mx-auto sm:text-xl xl:text-2xl px-4 sm:px-6 md:px-0">
+            <p className="md:w-[75%] text-center mx-auto sm:text-xl px-4 sm:px-6 md:px-0">
               I&apos;m a full-stack software engineer known for innovative problem-solving and
               strategic code development that ensures reliability and user-friendliness. Highly
               self-motivated, consistently meeting deadlines with a meticulous attention to detail.

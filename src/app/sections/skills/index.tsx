@@ -84,7 +84,7 @@ const Skills = () => {
       <div id="skills-section" className="skills-section bg-black">
         <div
           id="skills-text-container"
-          className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto mt-24 pb-24 pt-10"
+          className="flex flex-col justify-center items-start gap-6 w-11/12 mx-auto mt-24 pb-24 pt-7"
         >
           <p className="text-3xl sm:text-5xl md:text-6xl">Skills</p>
           {/* <div className={"grid grid-cols-1 gap-6  py-10 md:grid-cols-2 lg:grid-cols-3"}> */}
