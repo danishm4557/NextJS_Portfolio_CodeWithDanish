@@ -28,6 +28,7 @@ import tailwindLogo from "../../assets/tailwindLogo.svg";
 import viteLogo from "../../assets/viteLogo.svg";
 import cloudflareLogo from "../../assets/cloudflareLogo.svg";
 import framerMotionLogo from "../../assets/framerMotionLogo.svg";
+import { motion } from "framer-motion";
 
 const products = [
   {
@@ -250,7 +251,13 @@ const ProjectsCarousel: React.FC = () => {
   }, [emblaApi, tweenScale]);
 
   return (
-    <div className="embla">
+    <motion.div
+      initial={{ opacity: 0, y: 400 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 400 }}
+      transition={{ duration: 2 }}
+      className="embla"
+    >
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((index) => (
@@ -348,7 +355,7 @@ const ProjectsCarousel: React.FC = () => {
           ))}
         </div> */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

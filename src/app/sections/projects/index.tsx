@@ -50,13 +50,13 @@ const products = [
 
 const Projects = () => {
   return (
-    <div className="projects-section bg-black" id="projects-section">
+    <div className="projects-section bg-black pt-24" id="projects-section">
       <HeroParallax products={products} />
-      <div className="pb-16 text-center">
+      {/* <div className="pb-16 text-center">
         <button className="border border-slate-500 px-4 py-2 rounded overflow-hidden bg-[#222222] bg-opacity-75 hover:bg-opacity-100 cursor-pointer">
           View All Projects
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

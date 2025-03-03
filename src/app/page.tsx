@@ -12,12 +12,14 @@ import About from "./sections/about";
 import ResumeModal from "./sections/resume/modal";
 import ResumePage from "./sections/resume/page";
 import ProjectsCarousel from "./sections/projectsCarousel";
+import Link from "next/link";
 
 export default function Home() {
   const isAboveMediumScreens = useMediaQuery("(min-width: 767px)");
   const [navOpen, setNavOpen] = useState(false);
   const [showingResumeModal, setShowingResumeModal] = useState(false);
   const [showingResumeFullScreen, setShowingResumeFullScreen] = useState(false);
+  const [showingSecondProjectsView, setShowingSecondProjectsView] = useState(false);
 
   useEffect(() => {
     if (isAboveMediumScreens) {
@@ -47,8 +49,33 @@ export default function Home() {
               <Experience />
               <About />
               <Skills />
-              <Projects />
-              <ProjectsCarousel />
+              {!showingSecondProjectsView && <Projects />}
+              {!showingSecondProjectsView ? (
+                <div className="flex justify-center items-center pb-10 text-center">
+                  <a
+                    href="#ProjectsCarousel"
+                    className="border border-slate-500 px-4 py-2 rounded overflow-hidden bg-[#222222] bg-opacity-75 hover:bg-opacity-100 cursor-pointer"
+                    onClick={() => [setShowingSecondProjectsView(!showingSecondProjectsView)]}
+                  >
+                    Toggle View
+                  </a>
+                </div>
+              ) : (
+                <div
+                  className="flex justify-between items-center py-16 w-11/12 mx-auto"
+                  id="ProjectsCarousel"
+                >
+                  <p className="text-3xl sm:text-5xl md:text-6xl">Projects</p>
+                  <Link
+                    href="#projects-section"
+                    className="border border-slate-500 px-4 py-2 rounded overflow-hidden bg-[#222222] bg-opacity-75 hover:bg-opacity-100 cursor-pointer"
+                    onClick={() => [setShowingSecondProjectsView(!showingSecondProjectsView)]}
+                  >
+                    Toggle View
+                  </Link>
+                </div>
+              )}
+              {showingSecondProjectsView && <ProjectsCarousel />}
             </>
           )}
         </>
