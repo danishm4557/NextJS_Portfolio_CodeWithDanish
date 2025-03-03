@@ -310,17 +310,7 @@ body {
   }
 }
 
-/* @media (min-width: 768px) and (max-width: 1000px) {
-  .embla {
-    max-width: 70rem;
-    margin: auto;
-    --slide-height: 40rem;
-    --slide-spacing: 1rem;
-    --slide-size: 50%;
-  }
-} */
-
-@media (min-width: 1031) {
+@media (min-width: 1031px) {
   .embla {
     max-width: 90rem;
     margin: auto;
@@ -360,7 +350,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 1.2rem;
-  margin-top: 1.8rem;
+  /* margin-top: 1.8rem; */
 }
 .embla__buttons {
   display: grid;
