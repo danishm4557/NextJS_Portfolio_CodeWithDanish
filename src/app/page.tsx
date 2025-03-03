@@ -11,6 +11,7 @@ import MobileNav from "./sections/navigation/mobileNav";
 import About from "./sections/about";
 import ResumeModal from "./sections/resume/modal";
 import ResumePage from "./sections/resume/page";
+import ProjectsCarousel from "./sections/projectsCarousel";
 
 export default function Home() {
   const isAboveMediumScreens = useMediaQuery("(min-width: 767px)");
@@ -30,9 +31,11 @@ export default function Home() {
       {!showingResumeFullScreen ? (
         <>
           <Navigation navOpen={navOpen} setNavOpen={setNavOpen} />
+          {/* only mobile nav showing */}
           {navOpen ? (
             <MobileNav setNavOpen={setNavOpen} />
           ) : (
+            // all components showing
             <>
               <Main setShowingResumeModal={setShowingResumeModal} />
               {showingResumeModal && (
@@ -45,6 +48,7 @@ export default function Home() {
               <About />
               <Skills />
               <Projects />
+              <ProjectsCarousel />
             </>
           )}
         </>
