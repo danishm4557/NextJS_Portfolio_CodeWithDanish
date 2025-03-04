@@ -57,7 +57,7 @@ const Experience = () => {
   const shopLocalRef = useRef<HTMLDivElement | null>(null);
   const generalAssemblyRef = useRef<HTMLDivElement | null>(null);
 
-  const [glowColor, setGlowColor] = useState<string>("shopLocalGlow");
+  // const [glowColor, setGlowColor] = useState<string>("shopLocalGlow");
 
   useEffect(() => {
     const shopLocal = shopLocalRef.current;
@@ -114,7 +114,7 @@ const Experience = () => {
         "Sourcetree",
       ]);
 
-      setGlowColor("ShopLocal_Glow");
+      // setGlowColor("ShopLocal_Glow");
     }
 
     // shows General Assembly tech stack
@@ -146,7 +146,7 @@ const Experience = () => {
         "Git",
       ]);
 
-      setGlowColor("GA_Glow");
+      // setGlowColor("GA_Glow");
     }
 
     return () => {
