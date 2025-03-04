@@ -487,13 +487,13 @@ const Experience = () => {
                     initial="hidden"
                     whileInView="visible"
                     transition={{ delay: 1, when: "beforeChildren", staggerChildren: 2 }}
-                    className={`flex items-center gap-3 rounded-lg bg-[#121212] p-2 ${glowColor}`}
+                    className={"flex items-center gap-3 rounded-lg bg-[#121212] p-2"}
                     key={index}
                   >
                     <Image
                       alt={`${item} Logo`}
                       src={techStackImages[index]}
-                      className="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 object-cover"
+                      className="h-8 w-8 sm:h-10 sm:w-10 lg:h-16 lg:w-16 object-cover"
                     />
                     <p className="text-lg">{item}</p>
                   </motion.div>

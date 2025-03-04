@@ -13,6 +13,7 @@ import ResumeModal from "./sections/resume/modal";
 import ResumePage from "./sections/resume/page";
 import ProjectsCarousel from "./sections/projectsCarousel";
 import Link from "next/link";
+import Footer from "./sections/footer";
 
 export default function Home() {
   const isAboveMediumScreens = useMediaQuery("(min-width: 767px)");
@@ -40,6 +41,7 @@ export default function Home() {
             // all components showing
             <>
               <Main setShowingResumeModal={setShowingResumeModal} />
+              {/* resume shows when "View Resume" button is clicked */}
               {showingResumeModal && (
                 <ResumeModal
                   setShowingResumeModal={setShowingResumeModal}
@@ -76,6 +78,7 @@ export default function Home() {
                 </div>
               )}
               {showingSecondProjectsView && <ProjectsCarousel />}
+              <Footer />
             </>
           )}
         </>

@@ -7,15 +7,16 @@ import Image from "next/image";
 import Link from "next/link";
 // import shopLocalLogo from "../../assets/shop-local-logo.png";
 // import generalAssemblyLogo from "../../assets/general-assembly-logo.png";
-// import javaScriptLogo from "../../assets/javaScript-logo.png";
-// import coldFusionLogo from "../../assets/coldFusionLogo.png";
-// import jQueryLogo from "../../assets/jQuery-logo.png";
+import javaScriptLogo from "../../assets/javaScript-logo.png";
+import coldFusionLogo from "../../assets/coldFusionLogo.png";
+import jQueryLogo from "../../assets/jQuery-logo.png";
 // import javaLogo from "../../assets/java-logo.svg";
-// import mySQLLogo from "../../assets/mySQL-logo.jpg";
-// import heidiSQLLogo from "../../assets/heidiSQL-logo.png";
-// import bootstrapLogo from "../../assets/bootstrapLogo.png";
-// import htmlLogo from "../../assets/htmlLogo.png";
-// import cssLogo from "../../assets/cssLogo.png";
+import mySQLLogo from "../../assets/mySQL-logo.jpg";
+import heidiSQLLogo from "../../assets/heidiSQL-logo.png";
+import bootstrapLogo from "../../assets/bootstrapLogo.png";
+import htmlLogo from "../../assets/htmlLogo.png";
+import cssLogo from "../../assets/cssLogo.png";
+import ejsLogo from "../../assets/ejsLogo.svg";
 // import sourceTreeLogo from "../../assets/sourceTreeLogo.png";
 import typeScriptLogo from "../../assets/typeScriptLogo.svg";
 import reactJsLogo from "../../assets/reactJsLogo.svg";
@@ -27,8 +28,9 @@ import tailwindLogo from "../../assets/tailwindLogo.svg";
 // import gitLogo from "../../assets/gitLogo.png";
 import viteLogo from "../../assets/viteLogo.svg";
 import cloudflareLogo from "../../assets/cloudflareLogo.svg";
+import vercelLogo from "../../assets/vercelLogo.svg";
 import framerMotionLogo from "../../assets/framerMotionLogo.svg";
-// import { motion } from "framer-motion";
+import shopifyLogo from "../../assets/shopifyLogo.svg";
 
 const products = [
   {
@@ -37,7 +39,7 @@ const products = [
     githubURL: "https://github.com/danishm4557/gym_website",
     thumbnail: "/projects/evoGym.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
+      "Introducing our completely renovated state-of-the-art facilities that provide you the tools and coaching you need to get to your best self. From weight-training to yoga to adventure, you can be sure to find a class and instructor at EvoGym that fits your needs and style of training. Our instructors are dedicated to your success and will be sure to push you to your limits in order to help you achieve your goals.",
     techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
     techImages: [
       reactJsLogo,
@@ -54,7 +56,7 @@ const products = [
     githubURL: "https://github.com/danishm4557/Danish-Studio-Photography",
     thumbnail: "/projects/danishStudioPhotography.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
+      "Here is a responsive photography website showcasing a gallery of wedding photos, detailed photoshoot process breakdown, pricing information, and a request form to get in touch with me and book your next photoshoot. Built with a focus on performance and user experience, the project highlights my ability to create engaging and functional web applications.",
     techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
     techImages: [
       reactJsLogo,
@@ -72,32 +74,25 @@ const products = [
     thumbnail: "/projects/shopLocalSalesSite.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
-    techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
+    techName: ["Adobe ColdFusion", "jQuery", "Bootstrap", "MySQL", "HeidiSQL", "Framer Motion"],
     techImages: [
-      reactJsLogo,
-      typeScriptLogo,
-      tailwindLogo,
-      viteLogo,
-      cloudflareLogo,
+      coldFusionLogo,
+      jQueryLogo,
+      bootstrapLogo,
+      mySQLLogo,
+      heidiSQLLogo,
       framerMotionLogo,
     ],
   },
   {
     title: "Pocket Guru",
-    link: "https://github.com/danishm4557/PocketGuru",
+    link: "https://pocket-guru.vercel.app/",
     githubURL: "https://github.com/danishm4557/PocketGuru",
     thumbnail: "/projects/pocketGuru.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
-    techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
-    techImages: [
-      reactJsLogo,
-      typeScriptLogo,
-      tailwindLogo,
-      viteLogo,
-      cloudflareLogo,
-      framerMotionLogo,
-    ],
+      "PocketGuru is a collection of many lightweight applications in one project. The project emphasizes component-based architecture, where each application is modularized into reusable and functional components. Combining multiple small applications into a single project showcases my ability to design and develop user-friendly interfaces, manage state, and adhere to best practices while developing a diverse range of applications.",
+    techName: ["React", "TypeScript", "Bootstrap", "Vercel", "Framer Motion"],
+    techImages: [reactJsLogo, typeScriptLogo, bootstrapLogo, vercelLogo, framerMotionLogo],
   },
   {
     title: "Shop Local Retailer Dashboard",
@@ -106,13 +101,13 @@ const products = [
     thumbnail: "/projects/bridgePlatform.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
-    techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
+    techName: ["Adobe ColdFusion", "jQuery", "Bootstrap", "MySQL", "HeidiSQL", "Framer Motion"],
     techImages: [
-      reactJsLogo,
-      typeScriptLogo,
-      tailwindLogo,
-      viteLogo,
-      cloudflareLogo,
+      coldFusionLogo,
+      jQueryLogo,
+      bootstrapLogo,
+      mySQLLogo,
+      heidiSQLLogo,
       framerMotionLogo,
     ],
   },
@@ -123,15 +118,15 @@ const products = [
     thumbnail: "/projects/shopLocalShopifyPage.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
-    techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
-    techImages: [
-      reactJsLogo,
-      typeScriptLogo,
-      tailwindLogo,
-      viteLogo,
-      cloudflareLogo,
-      framerMotionLogo,
+    techName: [
+      "Adobe ColdFusion",
+      "jQuery",
+      "Bootstrap",
+      "MySQL",
+      "HeidiSQL",
+      "Shopify Collaborator",
     ],
+    techImages: [coldFusionLogo, jQueryLogo, bootstrapLogo, mySQLLogo, heidiSQLLogo, shopifyLogo],
   },
   {
     title: "CrimeFlix",
@@ -139,16 +134,9 @@ const products = [
     githubURL: "https://github.com/danishm4557/crimeFlix",
     thumbnail: "/projects/crimeFlix.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
-    techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
-    techImages: [
-      reactJsLogo,
-      typeScriptLogo,
-      tailwindLogo,
-      viteLogo,
-      cloudflareLogo,
-      framerMotionLogo,
-    ],
+      "As a fan of the true crime genre, I often found myself unable to keep up with the latest titles due to my exclusive Netflix subscription. To solve this, I built CrimeFlix, a web platform dedicated to showcasing crime genre content. Utilizing JavaScript and EJS within the MVC (Model-View-Controller) architecture, CrimeFlix offers users a responsive interface to browse new crime genre titles and trailers.",
+    techName: ["JavaScript", "EJS", "CSS"],
+    techImages: [javaScriptLogo, ejsLogo, cssLogo],
   },
   {
     title: "Casino Roulette",
@@ -156,16 +144,9 @@ const products = [
     githubURL: "https://github.com/danishm4557/Casino-Roulette",
     thumbnail: "/projects/casinoRoulette.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate arcu ac bibendum ultricies. Aenean quis lorem vitae sapien dignissim convallis. Cras porttitor, lacus vel tristique tincidunt, augue risus semper mi, in tristique turpis sapien non sem. Aliquam vel purus eu sapien ultrices interdum nec in enim. Pellentesque ornare risus diam. Cras semper odio vitae enim pharetra, ac tincidunt tortor pharetra. Integer a rutrum dolor.",
-    techName: ["React", "TypeScript", "Tailwind CSS", "Vite", "Clouflare", "Framer Motion"],
-    techImages: [
-      reactJsLogo,
-      typeScriptLogo,
-      tailwindLogo,
-      viteLogo,
-      cloudflareLogo,
-      framerMotionLogo,
-    ],
+      "Casino Roulette was one of my first coding projects which I built using Vanilla Javascript. This project was a perfect learning opportunity since it requires applying game logic, CSS for animations, and deep understanding of the DOM to manipulate alter the Roulette game piece on the screen.",
+    techName: ["HTML", "CSS", "JavaScript"],
+    techImages: [htmlLogo, cssLogo, javaScriptLogo],
   },
 ];
 
@@ -175,14 +156,11 @@ const numberWithinRange = (number: number, min: number, max: number): number =>
   Math.min(Math.max(number, min), max);
 
 const ProjectsCarousel: React.FC = () => {
-  //   const { slides, options } = props;
   const options: EmblaOptionsType = { loop: true };
   const slides = Array.from(Array(8).keys());
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const tweenFactor = useRef(0);
   const tweenNodes = useRef<HTMLElement[]>([]);
-
-  //   const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi);
 
   const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick } =
     usePrevNextButtons(emblaApi);
@@ -251,13 +229,6 @@ const ProjectsCarousel: React.FC = () => {
   }, [emblaApi, tweenScale]);
 
   return (
-    // <motion.div
-    //   initial={{ opacity: 0, y: 400 }}
-    //   animate={{ opacity: 1, y: 0 }}
-    //   exit={{ opacity: 0, y: 400 }}
-    //   transition={{ duration: 2 }}
-    //   className="embla"
-    // >
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
@@ -338,25 +309,12 @@ const ProjectsCarousel: React.FC = () => {
         </div>
       </div>
 
-      <div className="embla__controls">
+      <div className="embla__controls pb-10">
         <div className="embla__buttons">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
-
-        {/* <div className="embla__dots">
-          {scrollSnaps.map((_, index) => (
-            <DotButton
-              key={index}
-              onClick={() => onDotButtonClick(index)}
-              className={"embla__dot".concat(
-                index === selectedIndex ? " embla__dot--selected" : ""
-              )}
-            />
-          ))}
-        </div> */}
       </div>
-      {/* </motion.div> */}
     </div>
   );
 };
