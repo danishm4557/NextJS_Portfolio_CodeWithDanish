@@ -202,7 +202,7 @@ const Experience = () => {
                   <ul className="mt-3 sm:text-lg space-y-4 sm:space-y-8">
                     <li className="relative">
                       <p className="ml-4">
-                        Successfully completed 600+ tasks (as of October 7th, 2024), ensuring all
+                        Successfully completed 600+ tasks (as of December 31st, 2024), ensuring all
                         features were fully responsive and dynamic across all device viewports.
                         Leveraged Bootstrap CSS, jQuery, and AJAX to efficiently manipulate the DOM
                         and deliver seamless, interactive user experiences.
