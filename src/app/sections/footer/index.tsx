@@ -1,11 +1,16 @@
 import React from "react";
-import danishLogoBold from "../../assets/danish-logo-bold.png";
+import danishLogoBlackBackground from "../../assets/danish-logo-black-background.png";
 import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="footer-section pt-16 pb-8 w-11/12 flex flex-col items-center gap-4 mx-auto">
-      <Image src={danishLogoBold} alt="Danish Logo" className="danish-logo-bold-image" priority />
+      <Image
+        src={danishLogoBlackBackground}
+        alt="Danish Logo"
+        className="danish-logo-bold-image"
+        priority
+      />
       <div className="flex gap-3">
         {/* LINKEDIN */}
         <a

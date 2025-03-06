@@ -1,5 +1,5 @@
 "use client";
-import danishLogoBold from "../../assets/danish-logo-bold.png";
+import danishLogoBlackBackground from "../../assets/danish-logo-black-background.png";
 import Image from "next/image";
 
 type Props = {
@@ -14,7 +14,7 @@ const Navigation = ({ navOpen, setNavOpen }: Props) => {
         <div className="flex w-11/12 justify-between items-center">
           <div className="left-logo-container">
             <Image
-              src={danishLogoBold}
+              src={danishLogoBlackBackground}
               alt="Danish Logo"
               className="danish-logo-bold-image"
               priority
