@@ -4,9 +4,10 @@ import cursorProfile from "../../assets/cursor-profile.svg";
 
 type Props = {
   setShowingResumeModal: (value: boolean) => void;
+  showingSecondProjectsView: boolean;
 };
 
-const Main = ({ setShowingResumeModal }: Props) => {
+const Main = ({ setShowingResumeModal, showingSecondProjectsView }: Props) => {
   return (
     <>
       <div id="main-section" className="main-home-landing-page-section flex justify-center">
@@ -42,7 +43,9 @@ const Main = ({ setShowingResumeModal }: Props) => {
           </div>
           <div className="flex items-center gap-4 text-sm">
             <a
-              href="#projects-section"
+              href={`#${
+                showingSecondProjectsView == false ? "projects-section" : "ProjectsCarousel"
+              }`}
               className="see-my-work-button relative border border-slate-500 px-4 py-2 rounded overflow-hidden bg-[#222222] bg-opacity-75 hover:bg-opacity-100 z-[3]"
             >
               See My Work

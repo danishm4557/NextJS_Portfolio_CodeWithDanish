@@ -36,11 +36,17 @@ export default function Home() {
           <Navigation navOpen={navOpen} setNavOpen={setNavOpen} />
           {/* only mobile nav showing */}
           {navOpen ? (
-            <MobileNav setNavOpen={setNavOpen} />
+            <MobileNav
+              setNavOpen={setNavOpen}
+              showingSecondProjectsView={showingSecondProjectsView}
+            />
           ) : (
             // all components showing
             <>
-              <Main setShowingResumeModal={setShowingResumeModal} />
+              <Main
+                setShowingResumeModal={setShowingResumeModal}
+                showingSecondProjectsView={showingSecondProjectsView}
+              />
               {/* resume shows when "View Resume" button is clicked */}
               {showingResumeModal && (
                 <ResumeModal

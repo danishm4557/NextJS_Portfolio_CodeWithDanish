@@ -38,9 +38,10 @@ const contactAnimation = {
 
 type Props = {
   setNavOpen: (value: boolean) => void;
+  showingSecondProjectsView: boolean;
 };
 
-const MobileNav = ({ setNavOpen }: Props) => {
+const MobileNav = ({ setNavOpen, showingSecondProjectsView }: Props) => {
   return (
     <nav className="mobile-navigator absolute bg-black top-0 transition-opacity duration-300 px-6 pt-44 space-y-1">
       <Starfield
@@ -83,7 +84,9 @@ const MobileNav = ({ setNavOpen }: Props) => {
           <motion.a
             variants={listVariant}
             className="hover:text-zinc-400"
-            href="#projects-section"
+            href={`#${
+              showingSecondProjectsView == false ? "projects-section" : "ProjectsCarousel"
+            }`}
             onClick={() => setNavOpen(false)}
           >
             Projects
